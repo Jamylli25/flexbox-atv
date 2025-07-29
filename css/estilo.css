@@ -35,3 +35,90 @@
 
 /* NÃO ALTERE DAQUI PRA CIMA */
 /* ESCREVA SEU CÓDIGO ABAIXO */
+
+.layout-02 .top-menu {
+  display: flex;
+  justify-content: space-around;
+  background-color: #666;
+  padding: 15px;
+}
+
+.layout-02 .top-menu button {
+  background-color: #ccc;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.layout-02 .cards {
+  display: flex;
+  justify-content: space-around;
+  margin: 30px 0;
+}
+
+.layout-02 .card {
+  width: 200px;
+  background-color: #bbb;
+  padding: 15px;
+}
+
+.layout-02 footer.footer {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  background-color: #444;
+  padding: 20px;
+  color: white;
+}
+
+.layout-03 .grid {
+      display: flex;
+      flex-wrap: wrap;
+      width: 320px;
+      height: 320px;
+      margin: 20px auto;
+    }
+
+    .layout-03 .grid div {
+      width: 40px;
+      height: 40px;
+    }
+
+    .light {
+      background-color: #aaa;
+    }
+
+    .dark {
+      background-color: #666;
+    }
+
+    .layout-01 {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-evenly;
+  width: 100%;
+  max-width: 900px;
+  height: 60vh;
+  padding: 20px;
+  background-color: #f5f5f5;
+  border-top: 2px solid #ccc;
+  border-bottom: 2px solid #ccc;
+  box-sizing: border-box;
+  gap: 12px;
+  margin-bottom: 40px;
+}
+
+.bar {
+  width: 800px;
+  min-height: 0px;
+  background-color: #7d7d7d;
+  color: #000;
+  font-weight: bold;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  border-radius: 4px 4px 0 0;
+  transition: background-color 0.3s, transform 0.3s;
+  padding-top: 4px;
+}
+
